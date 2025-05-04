@@ -35,7 +35,7 @@ export default function Navigation() {
       </div>
       <div className="px-4 py-2 font-semibold cursor-pointer hidden md:block">
         <a
-          href="https://github.com/"
+          href="https://github.com/uttkarsh08"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center text-sm md:text-lg transition-colors duration-300 hover:text-[#f76c00]">
