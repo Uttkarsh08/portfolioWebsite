@@ -12,9 +12,23 @@ export default function Projects() {
       </FadeInSection>
 
       <div className="flex w-full gap-6 flex-col mb-10">
+
         <ProjectCard
-          link="https://github.com/SOUMEN-PAL/Veggito"
-          github="https://github.com/SOUMEN-PAL/Veggito"
+          link="https://github.com/Uttkarsh08/InstaStudio"
+          github="https://github.com/Uttkarsh08/InstaStudio"
+          name="InstaStudio"
+          learning="Kotlin, Firebase, Jetpack Compose, SpringBoot, Spring Security, JWT, Hibernate, REST APIs, JUnit, Mockito, AsserJ"
+          desc="A full-stack studio management app empowering photography businesses to manage events, members, and customers efficiently. Built with Spring Boot and Jetpack Compose, featuring real-time scheduling, role-based access, and modular backend integration."
+          techStack={[
+            "kotlin.svg",
+            "firebase.svg",
+            "jc.svg",
+            "springboot.svg"
+          ]}
+        />
+        <ProjectCard
+          link="https://github.com/Uttkarsh08/Veggito"
+          github="https://github.com/Uttkarsh08/Veggito"
           name="Veggito"
           learning="Kotlin, Firebase, Jetpack Compose"
           desc="A D2C Android app enabling farmers to directly sell fresh produce to consumers. Developed for SIH 2023 with real-time inventory, AI-powered price prediction, and B2B simulation."

@@ -20,7 +20,7 @@ export default function ProjectPreviewCard({
   learning,
   techStack,
 }: Props) {
-  const screenshotURL = `https://image.thum.io/get/width/1200/crop/768/noanimate/${link}`;
+  const screenshotURL = `https://api.microlink.io/?url=${link}&screenshot=true&meta=false&embed=screenshot.url&viewport.width=1200`;
 
   return (
     <FadeInSection>
