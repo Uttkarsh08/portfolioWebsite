@@ -43,7 +43,7 @@ export default function HomeSection() {
             Lets connect
           </Link>
           <Link
-            href="/Resume_Uttkarsh.pdf"
+            href="/Uttkarsh_Resume.pdf"
             download
             className="flex items-center gap-2 px-6 py-2 rounded-full font-semibold border border-[#f76c00] text-[#f76c00] hover:bg-[#f76c00] hover:text-white transition">
             <Download size={18} />
